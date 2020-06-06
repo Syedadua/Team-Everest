@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Font Awesome';
+    src: url(/fonts/fontawesome-webfont.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(170, 170, 170) !important;
+}
+
+.myrow{
+    width: 100%;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navigation-button{
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 7px 10px 7px 10px;
+}
+
+.mynavigation{
+    background-color: black;
+}
+
+.main-heading{
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+}
+
+.main-heading:hover{
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.mynavigationbar-div ul li{
+    margin-right: 15px;
+}
+
+.mynavigationbar-div ul li a{
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 7px 15px 7px 15px !important;
+}
+
+.mynavigationbar-div ul li a:hover{
+    color: rgb(22, 128, 228);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    padding: 7px 15px 7px 15px !important;
+}
+
+.myfooter{
+    color: white;
+    background-color: black;
+}
+
+.main-div{
+    min-height: calc(100vh - 61.5px - 48px);
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+/* Services */
+
+
+
+/* About */
+
+.my-about{
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+/* Contact */
+
+.social-media{
+    margin-top: 100px;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.social-media a i{
+    font-family: 'Font Awesome';
+    font-style: normal;
+    color: rgb(104, 104, 104);
+    font-size: 50px;
+}
+
+.social-media a i:hover{
+    color: rgb(22, 128, 228);
+}
